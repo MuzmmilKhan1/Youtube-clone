@@ -1,0 +1,32 @@
+.Player{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1%; */
+  width: 60%;
+  margin: 5%;
+}
+.Player h5{
+  width: 100%;
+}
+.video-responsive {
+    overflow: hidden;
+    /* padding-bottom: 56.25%; */
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+  
+  .video-responsive iframe {
+    left: 10%;
+    width: 100%;
+    top: 10%;
+    /* height: 350px;
+    width: 600px; */
+  }
+  
+  /* From Description.js */
+  .anchorTagToWatchOnYoutube{
+    color: black;
+  }

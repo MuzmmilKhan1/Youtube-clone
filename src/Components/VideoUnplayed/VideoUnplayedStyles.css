@@ -1,0 +1,16 @@
+.unplayedVideoDiv img{
+    border-radius: 25px;
+    position: relative;
+}
+.unplayedVideoDiv{
+    padding: 3%;
+    margin: 1%;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+.mainDivVideos{
+    display: flex;
+    justify-content: space-evenly;
+}
