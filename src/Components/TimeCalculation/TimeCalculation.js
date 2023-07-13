@@ -36,7 +36,7 @@ const TimeAgo = ({ dateString }) => {
     calculateTimeAgo();
   }, [dateString]);
 
-  return <address style={{textAlign: "left",fontSize: "smaller"}}>{timeAgo}</address>;
+  return <address style={{ textAlign: "left", fontSize: "smaller", color: "white" }}>{timeAgo}</address>;
 };
 
 export default TimeAgo;

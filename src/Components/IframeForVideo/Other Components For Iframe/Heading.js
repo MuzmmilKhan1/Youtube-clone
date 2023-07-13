@@ -1,6 +1,10 @@
 
 export default function Heading({Heading}) {
   return (
-    <h5>{Heading}</h5>
+    <h5
+    style={{
+      color: "white"
+    }}
+    >{Heading}</h5>
   )
 }

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 const ChannelName = ({ channelTitle }) => {
   const [channel, setChannel] = useState("");
 
+  // Turnicate channel Name for Suggested Video
   useEffect(() => {
     const truncateText = (text, maxLength) => {
       if (text && text.length > maxLength) {
@@ -15,14 +16,7 @@ const ChannelName = ({ channelTitle }) => {
   }, [channelTitle]);
 
   return (
-    <address
-      style={{
-        textAlign: "left",
-        fontSize: "smaller",
-        width: "80%",
-        margin: "1px 0px 1px 1px",
-      }}
-    >
+    <address className="addressForChannelName">
       {channel}
     </address>
   );

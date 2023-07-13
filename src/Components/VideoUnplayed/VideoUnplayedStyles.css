@@ -1,16 +1,30 @@
+
 .unplayedVideoDiv img{
     border-radius: 25px;
     position: relative;
 }
 .unplayedVideoDiv{
-    padding: 3%;
-    margin: 1%;
+    overflow: hidden;
     text-align: left;
-    color: black;
+    color: white;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .mainDivVideos{
     display: flex;
     justify-content: space-evenly;
+}
+
+.infinityScrollVideoUnplayed{
+    background-color: #0f0f0f;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.divInsideInfinityScrollVideoUnplayed{
+    width: 100%;
 }
