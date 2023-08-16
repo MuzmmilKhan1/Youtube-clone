@@ -45,8 +45,6 @@ function SuggestedVideos({ videoId }) {
     }
     return text;
   };
-
-  if(items != null){
     return (
       <InfiniteScroll
       className='my-3'
@@ -76,7 +74,6 @@ function SuggestedVideos({ videoId }) {
       ))}
     </InfiniteScroll>
   );
-}
 }
 
 export default SuggestedVideos;
